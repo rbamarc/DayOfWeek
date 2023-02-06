@@ -49,5 +49,14 @@ public class DayOfWeek {
         }
               
         System.out.println("The day is " + dayName);
+        
+        if (dayName.equals("Saturday") || dayName.equals("Sunday")) {
+            System.out.println("It's the weekend!!");
+        } else {
+            System.out.println("it's the weekday...");
+        }
+        
+        //the .equals method is used to compare strings
+        //it returns a boolean value of true or false
     }
 }
